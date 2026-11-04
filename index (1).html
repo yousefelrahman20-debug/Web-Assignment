@@ -1,0 +1,111 @@
+<!--
+  Name: Yousef Abdelrahman Mohamed Fathy Mohamed Abdellatef
+  Student ID: 225112751
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profile page for Yousef Abdelrahman Mohamed Fathy Mohamed Abdellatef.">
+  <title>Yousef Abdelrahman | Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container">
+      <p class="eyebrow">Student profile</p>
+      <h1>Yousef Abdelrahman Mohamed Fathy Mohamed Abdellatef</h1>
+
+      <div class="profile-bar">
+        <a class="profile-name" href="#top">Yousef Abdelrahman</a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="profile-intro container" id="about" aria-labelledby="intro-title">
+      <div class="portrait-wrap">
+        <img src="images/me.jpg" alt="Yousef Abdelrahman wearing a dark suit beside a framed painting">
+      </div>
+
+      <div class="intro-copy">
+        <p class="section-number">01 / Introduction</p>
+        <h2 id="intro-title">Hello, I'm Yousef.</h2>
+        <p>
+          I am a student building a strong foundation in front-end web development
+          through clear structure, thoughtful styling, and simple interactions.
+        </p>
+        <p class="student-id">Student ID <strong>225112751</strong></p>
+        <button id="theme-toggle" type="button" aria-pressed="false">
+          Switch to dark mode
+        </button>
+      </div>
+    </section>
+
+    <section class="highlights container" id="highlights" aria-labelledby="highlights-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">02 / Highlights</p>
+          <h2 id="highlights-title">What I'm working on</h2>
+        </div>
+        <p>Three parts of my current web journey.</p>
+      </div>
+
+      <div class="card-row">
+        <article class="card">
+          <span class="card-index">01</span>
+          <h3>Web foundations</h3>
+          <p>Writing semantic HTML that gives every part of a page a clear purpose.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-index">02</span>
+          <h3>Visual design</h3>
+          <p>Using responsive CSS, spacing, and colour to create a focused experience.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-index">03</span>
+          <h3>Interaction</h3>
+          <p>Adding small JavaScript details that make a page useful and enjoyable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="section-number">03 / Say hello</p>
+        <h2 id="contact-title">Let's connect.</h2>
+        <p>Leave your name and email below. I would be happy to know who visited my page.</p>
+        <p class="visitor-greeting" id="visitor-greeting" aria-live="polite">Hello, classmate!</p>
+      </div>
+
+      <form id="visitor-form">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name">
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Yousef Abdelrahman Mohamed Fathy Mohamed Abdellatef.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
